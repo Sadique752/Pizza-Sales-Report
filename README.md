@@ -16,19 +16,19 @@
 - Which pizza generated highest revenue?
 - Which pizza category generated highest revenue in Percentage?
 
-### Insights we get from Analysis
+## Insights we get from Analysis
 - July is the highest revenue generated month.
 - Highest pizza sold by category is Classic.
 - The Thai Chicken Pizza generated highest revenue.
 - Classic Pizza has generated 26.91% of Total revenue.
 
-### DAX Formula we used to find insights
+## DAX Formula we used to find insights
 - Total Order = DISTINCTCOUNT(pizza_sales[order_id])
 - Total Pizza Sold = SUM(pizza_sales[quantity])
 - Total Revenue = SUM(pizza_sales[total_price]) Avg Order Value = [Total Revenue] / [Total Order]
 - Avg Pizza Per Order = [Total Pizza Sold] / [Total Order]
 
-### Main KEy Performing Indicators (KPIs) are
+## Main Key Performing Indicators (KPIs) are
 - Total Revenue
 - Total Order
 - Average Order Value
